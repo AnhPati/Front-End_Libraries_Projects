@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/css/App.css';
-import MarkdownPreviewer from './component/MarkdownPreviewer'
+import MarkdownPreviewer from './component/MarkdownPreviewer';
 
 function App() {
   return (
