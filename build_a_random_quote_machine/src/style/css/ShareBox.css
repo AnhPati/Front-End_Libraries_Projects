@@ -1,0 +1,8 @@
+.shareBtn {
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.shareBtn:hover {
+    color: #138496;
+}
