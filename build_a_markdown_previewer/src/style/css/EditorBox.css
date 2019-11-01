@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Latina Essential';
+    src: url('/src/style/font/LatinaEssential-Medium/LatinaEssential-Medium.eot'),
+         url('/src/style/font/LatinaEssential-Medium/LatinaEssential-Medium.woff'),
+         url('/src/style/font/LatinaEssential-Medium/LatinaEssential-Medium.woff2'),
+}
+
+.editorBox-container {
+    border-radius: 0.2rem;
+    background-color: #000;
+    color: #FFF;
+}
+
+.editorBox-item {
+    border: 0.5rem solid #000;
+    border-radius: 0.8rem;
+    height: 10rem;
+    font-family: 'Latina Essential';
+    font-size:1.4rem;
+}
+
+.editorBox-item:focus {
+    outline: none;
+}
