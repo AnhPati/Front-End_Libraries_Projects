@@ -1,0 +1,21 @@
+.previewBox-container {
+    border-radius: 0 0 0.2rem 0.2rem;
+    background-color: #FFF;
+    color: #000;
+}
+
+.previewBox-item {
+    margin: 0;
+    background-color: #000;
+    border: 0.5rem solid #FFF;
+    border-radius: 0.8rem;
+    min-height: 10rem;
+}
+
+.previewBox-item > p {
+    font-family: 'Latina Essential';
+    font-size:1.4rem;
+    color: #FFF;
+    padding-left: .5rem;
+    padding-right :.5rem;
+}

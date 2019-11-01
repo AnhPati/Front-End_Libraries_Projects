@@ -6,7 +6,7 @@
 }
 
 .editorBox-container {
-    border-radius: 0.2rem;
+    border-radius: 0.2rem 0.2rem 0 0;
     background-color: #000;
     color: #FFF;
 }
@@ -14,7 +14,7 @@
 .editorBox-item {
     border: 0.5rem solid #000;
     border-radius: 0.8rem;
-    height: 10rem;
+    min-height: 10rem;
     font-family: 'Latina Essential';
     font-size:1.4rem;
 }
