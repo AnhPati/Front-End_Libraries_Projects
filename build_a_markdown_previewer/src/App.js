@@ -4,10 +4,9 @@ import MarkdownPreviewer from './component/MarkdownPreviewer';
 
 function App() {
   return (
-    <div className="App">
-      <p>Bouyaka !</p>
+    <React.Fragment>
       <MarkdownPreviewer/>
-    </div>
+    </React.Fragment>
   );
 }
 

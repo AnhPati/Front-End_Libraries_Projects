@@ -2,12 +2,13 @@ import React, {Component} from 'react';
 import EditorBox from './EditorBox';
 import PreviewBox from './PreviewBox';
 import commonmark from 'commonmark';
+import '../style/css/MarkdownPreviewer.css'
 
 class MarkdowPreviewer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            originText: '**prout**',
+            originText: '',
             renderText: '',
         }
 
@@ -34,8 +35,7 @@ class MarkdowPreviewer extends Component {
     render() {
         
         return(
-            <div>
-                MarkdowPreviewer
+            <div className="d-flex flex-column align-items-center p-5 min-vh-100 markdownPreviewer-container">
                 <EditorBox handleChange={this.handleChange} originText={this.state.originText}/>
                 <PreviewBox renderText={this.state.renderText}/>
             </div>
