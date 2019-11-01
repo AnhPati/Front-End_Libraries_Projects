@@ -24,7 +24,7 @@ class MarkdowPreviewer extends Component {
         let write = new commonmark.HtmlRenderer();
         let parsed = read.parse(originText);
         let htmlText = write.render(parsed);
-        console.log(typeof htmlText);
+        console.log(htmlText);
         this.setState ({
             originText: originText,
             renderText: htmlText,
