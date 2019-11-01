@@ -36,6 +36,7 @@ class MarkdowPreviewer extends Component {
         
         return(
             <div className="d-flex flex-column align-items-center p-5 min-vh-100 markdownPreviewer-container">
+                <h1 className="mb-5">Markdown <span class="text-light">Previewer</span></h1>
                 <EditorBox handleChange={this.handleChange} originText={this.state.originText}/>
                 <PreviewBox renderText={this.state.renderText}/>
             </div>

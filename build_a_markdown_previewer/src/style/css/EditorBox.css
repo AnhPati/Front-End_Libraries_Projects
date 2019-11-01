@@ -11,6 +11,19 @@
     color: #FFF;
 }
 
+.editorBox-container a:focus, .editorBox-container h6:focus {
+    outline: none;
+}
+
+.editorBox-container h6 {
+    color: #FFF;
+}
+
+.editorBox-container a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
 .editorBox-item {
     border: 0.5rem solid #000;
     border-radius: 0.8rem;
