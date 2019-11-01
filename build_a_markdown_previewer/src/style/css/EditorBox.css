@@ -15,13 +15,8 @@
     outline: none;
 }
 
-.editorBox-container h6 {
+.editorBox-container h6, .editorBox-container a:hover {
     color: #FFF;
-}
-
-.editorBox-container a:hover {
-    color: #FFF;
-    text-decoration: underline;
 }
 
 .editorBox-item {

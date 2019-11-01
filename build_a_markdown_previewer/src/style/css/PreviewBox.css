@@ -4,6 +4,14 @@
     color: #000;
 }
 
+.previewBox-container a:focus, .previewBox-container h6:focus {
+    outline: none;
+}
+
+.previewBox-container h6, .previewBox-container a:hover {
+    color: #000;
+}
+
 .previewBox-item {
     margin: 0;
     background-color: #000;
