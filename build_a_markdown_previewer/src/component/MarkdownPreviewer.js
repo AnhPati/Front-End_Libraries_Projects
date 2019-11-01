@@ -36,14 +36,8 @@ class MarkdowPreviewer extends Component {
         return(
             <div>
                 MarkdowPreviewer
-                <input 
-                    type="text"
-                    value={this.state.originText} 
-                    onChange={this.handleChange}
-                />
-                {/*<EditorBox handleChange={this.handleChange}/>*/}
-                {/*<PreviewBox text={this.state.renderText}/>*/}
-                <div dangerouslySetInnerHTML={{__html: this.state.renderText}}/>
+                <EditorBox handleChange={this.handleChange} originText={this.state.originText}/>
+                <PreviewBox renderText={this.state.renderText}/>
             </div>
         )
     }

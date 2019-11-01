@@ -5,6 +5,7 @@ class PreviewBox extends Component {
         return(
             <div>
                 Preview
+                <div dangerouslySetInnerHTML={{__html: this.props.renderText}}/>
             </div>
         )
     }

@@ -5,6 +5,11 @@ class EditorBox extends Component {
         return(
             <div>
                 Editor
+                <input 
+                    type="text"
+                    value={this.props.originText} 
+                    onChange={this.props.handleChange}
+                />
             </div>
         )
     }
