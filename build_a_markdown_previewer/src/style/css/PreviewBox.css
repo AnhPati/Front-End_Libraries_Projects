@@ -12,6 +12,11 @@
     color: #000;
 }
 
+.renderHTML-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .previewBox-item {
     margin: 0;
     background-color: #000;
@@ -20,7 +25,7 @@
     min-height: 10rem;
 }
 
-.previewBox-item > p {
+.previewBox-item > p, .renderHTML-item {
     font-family: 'Latina Essential';
     font-size:1.4rem;
     color: #FFF;
