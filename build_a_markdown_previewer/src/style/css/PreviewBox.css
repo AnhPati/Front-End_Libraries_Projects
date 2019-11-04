@@ -20,6 +20,7 @@
 .previewBox-item {
     margin: 0;
     background-color: #000;
+    color: #FFF;
     border: 0.5rem solid #FFF;
     border-radius: 0.8rem;
     min-height: 10rem;
